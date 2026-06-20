@@ -1,1 +1,14 @@
+{
+  "name": "cypress-e2e-store",
+  "version": "1.0.0",
+  "description": "Teste de automação com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
 
