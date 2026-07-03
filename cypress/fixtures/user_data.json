@@ -1,1 +1,24 @@
+{
+  "validUser": {
+    "name": "Antonio",
+    "lastName": "Geder",
+    "email": "seu_email@teste.com",
+    "password": "123456",
+    "phone": "11999999999"
+  },
 
+  "invalidUser": {
+    "email": "usuario_inexistente@teste.com",
+    "password": "senhaerrada"
+  },
+
+  "checkoutData": {
+    "company": "QA Automation",
+    "address": "Rua dos Testes, 100",
+    "address2": "Apartamento 101",
+    "country": "India",
+    "state": "São Paulo",
+    "city": "São Paulo",
+    "zipcode": "01000000"
+  }
+}
