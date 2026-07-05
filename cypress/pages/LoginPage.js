@@ -2,7 +2,7 @@ class LoginPage {
 
     elements = {
 
-        emailInput: () => cy.get('[data-qa="login-email"]'),
+        emailInput: () => cy.get('#email'),
 
         passwordInput: () => cy.get('[data-qa="login-password"]'),
 
