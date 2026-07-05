@@ -5,7 +5,7 @@ Projeto de estudos focado em automação de testes utilizando Cypress.
 
 ## Aplicação testada
 
-https://automationexercise.com/
+https://front.serverest.dev/login
 
 ## Objetivos
 
