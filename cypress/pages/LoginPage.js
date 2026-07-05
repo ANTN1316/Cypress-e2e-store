@@ -6,9 +6,9 @@ class LoginPage {
 
         passwordInput: () => cy.get('[data-qa="login-password"]'),
 
-        loginButton: () => cy.get('[data-qa="login-button"]')
+       loginButton: () => cy.get('[data-qa="login-button"]')
 
-        logoutButton: () => cy.get('a[href="/logout"]')
+       logoutButton: () => cy.get('a[href="/logout"]')
     }
 
     visit() {
