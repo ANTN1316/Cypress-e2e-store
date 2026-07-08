@@ -7,8 +7,8 @@ describe('Funcionalidade: Login', () => {
         loginPage.visit()
 
         loginPage.login(
-            'seu_email@teste.com',
-            '123456'
+            'antoniorec2017@gmail.com',
+            'Geder0426!'
         )
 
        cy.contains('Sair').should('be.visible')
