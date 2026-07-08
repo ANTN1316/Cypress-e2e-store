@@ -2,7 +2,7 @@ class LoginPage {
 
     elements = {
 
-      cy,get([datatestid="email"]),
+      cy,get([datatestid="email"])
 
         passwordInput: () => cy.get('[data-testid="senha"]'),
 
