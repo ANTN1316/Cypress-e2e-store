@@ -11,7 +11,7 @@ describe('Funcionalidade: Login', () => {
             'Geder0426!'
         )
 
-       cy.contains('Sair').should('be.visible')
+     cy.url().should('include', '/home')
     })
 
 })
