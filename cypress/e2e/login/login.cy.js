@@ -11,8 +11,7 @@ describe('Funcionalidade: Login', () => {
             '123456'
         )
 
-        cy.get('a[href="/logout"]').should('be.visible')
-
+       cy.contains('Sair').should('be.visible')
     })
 
 })
