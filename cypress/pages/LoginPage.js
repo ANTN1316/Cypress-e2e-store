@@ -2,13 +2,13 @@ class LoginPage {
 
     elements = {
 
-        emailInput: () => cy.get('#email'),
+      cy.get('[data-testid="email"]'),
 
-        passwordInput: () => cy.get('[data-qa="login-password"]'),
+        passwordInput: () => cy.get('[data-testid="senha"]'),
 
-       loginButton: () => cy.get('[data-qa="login-button"]')
+      loginButton: () => cy.get('[data-testid="entrar"]'),
 
-       logoutButton: () => cy.get('a[href="/logout"]')
+      logoutButton: () => cy.get('a[href="/logout"]'),
     }
 
     visit() {
